@@ -1,4 +1,4 @@
-Boileplate using NextJs + Prettier + LintStaged + Commitizen
+Boileplate using NextJs + Prettier + LintStaged + Commitizen.
 
 <!-- This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
