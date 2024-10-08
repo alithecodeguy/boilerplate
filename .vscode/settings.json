@@ -1,0 +1,45 @@
+{
+  "typescript.tsdk": "node_modules\\typescript\\lib",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit",
+    "source.organizeImports": "explicit"
+  },
+  // Customizes specific language features.
+  "[javascript]": {
+    "editor.tabSize": 2 // Ensures tab size is consistent with Prettier for JS files.
+  },
+  "[javascriptreact]": {
+    "editor.tabSize": 2 // Ensures tab size is consistent with Prettier for JSX files.
+  },
+  // Prettier extension settings.
+  "prettier.singleQuote": true,
+  "prettier.arrowParens": "always",
+  "prettier.trailingComma": "none",
+  "prettier.bracketSameLine": true,
+  "prettier.printWidth": 100,
+  "prettier.tabWidth": 2,
+  "prettier.semi": true,
+  "prettier.endOfLine": "auto",
+  "prettier.useTabs": false,
+  // Additional settings for vscode prettier extension.
+  "prettier.bracketSpacing": true,
+  "prettier.jsxSingleQuote": false,
+  "prettier.htmlWhitespaceSensitivity": "css",
+  "prettier.proseWrap": "preserve",
+  // "prettier.vueIndentScriptAndStyle": true,
+  "prettier.embeddedLanguageFormatting": "auto",
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+  // "[typescriptreact]": {
+  //   "editor.defaultFormatter": "vscode.typescript-language-features"
+  // },
+  // "[html]": {
+  //   "editor.defaultFormatter": "vscode.html-language-features"
+  // }
+}
